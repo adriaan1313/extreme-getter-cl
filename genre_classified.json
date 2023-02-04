@@ -1,0 +1,1203 @@
+{
+	"1":{
+		"label":"ATMOSPHERIC",
+		"subs":{
+			"2":{
+				"label":"DRONES",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"3":{
+				"label":"ELECTRONIC SOUNDSCAPES",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"4":{
+				"label":"PULSES",
+				"subs":{
+					
+				},
+				"id3":""
+			}
+		},
+		"id3":"26"
+	},
+	"3":{
+		"label":"BLUES",
+		"subs":{
+			
+		},
+		"id3":"0"
+	},
+	"4":{
+		"label":"CLASSICAL",
+		"subs":{
+			"32":{
+				"label":"BALLET",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"35":{
+				"label":"CHAMBER MUSIC",
+				"subs":{
+					
+				},
+				"id3":"104"
+			},
+			"37":{
+				"label":"CLASSIC SONG",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"38":{
+				"label":"CONCERTO",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"40":{
+				"label":"CONTEMPORARY",
+				"subs":{
+					"5":{
+						"label":"ELECTRONIC",
+						"id3":""
+					}
+				},
+				"id3":""
+			},
+			"41":{
+				"label":"FANFARES",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"47":{
+				"label":"NEO ORCHESTRAL",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"48":{
+				"label":"OPERA",
+				"subs":{
+					"7":{
+						"label":"ARIA",
+						"id3":""
+					}
+				},
+				"id3":"103"
+			},
+			"53":{
+				"label":"SOLOIST",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"54":{
+				"label":"SYMPHONY",
+				"subs":{
+					
+				},
+				"id3":"106"
+			},
+			"390":{
+				"label":"SUITE",
+				"subs":{
+					
+				},
+				"id3":""
+			}
+		},
+		"id3":"32"
+	},
+	"5":{
+		"label":"COUNTRY",
+		"subs":{
+			"59":{
+				"label":"OUTLAW",
+				"subs":{
+					
+				},
+				"id3":""
+			}
+		},
+		"id3":"2"
+	},
+	"6":{
+		"label":"EDM",
+		"subs":{
+			"67":{
+				"label":"BREAK BEATS",
+				"subs":{
+					
+				},
+				"id3":"153"
+			},
+			"68":{
+				"label":"DRUM N' BASS",
+				"subs":{
+					"8":{
+						"label":"TECH STEP",
+						"id3":""
+					},
+					"9":{
+						"label":"JUNGLE",
+						"id3":"63"
+					}
+				},
+				"id3":"127"
+			},
+			"70":{
+				"label":"DUBSTEP",
+				"subs":{
+					"10":{
+						"label":"AMBIENT",
+						"id3":""
+					}
+				},
+				"id3":"189"
+			},
+			"74":{
+				"label":"HOUSE",
+				"subs":{
+					"16":{
+						"label":"ACID",
+						"id3":"34"
+					},
+					"17":{
+						"label":"DEEP",
+						"id3":""
+					},
+					"18":{
+						"label":"FUNK",
+						"id3":"5"
+					},
+					"19":{
+						"label":"GARAGE",
+						"id3":""
+					},
+					"21":{
+						"label":"PROGRESSIVE",
+						"id3":""
+					},
+					"22":{
+						"label":"COMPLEXTRO",
+						"id3":""
+					},
+					"24":{
+						"label":"WITCH",
+						"id3":""
+					}
+				},
+				"id3":"35"
+			},
+			"75":{
+				"label":"INDUSTRIAL ELECTRONIC",
+				"subs":{
+					"26":{
+						"label":"AMBIENT INDUSTRIAL",
+						"id3":""
+					}
+				},
+				"id3":"19"
+			},
+			"79":{
+				"label":"TECHNO",
+				"subs":{
+					"30":{
+						"label":"MINIMAL",
+						"id3":""
+					},
+					"31":{
+						"label":"RAVE",
+						"id3":"68"
+					}
+				},
+				"id3":"18"
+			},
+			"80":{
+				"label":"TRANCE",
+				"subs":{
+					"33":{
+						"label":"HARD",
+						"id3":""
+					}
+				},
+				"id3":"31"
+			},
+			"367":{
+				"label":"UK GARAGE",
+				"subs":{
+					"105":{
+						"label":"2-STEP",
+						"id3":""
+					}
+				},
+				"id3":""
+			},
+			"438":{
+				"label":"CHILL OUT",
+				"subs":{
+					
+				},
+				"id3":"154"
+			},
+			"439":{
+				"label":"CHILLWAVE",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"440":{
+				"label":"IDM",
+				"subs":{
+					"136":{
+						"label":"BREAKCORE",
+						"id3":""
+					},
+					"137":{
+						"label":"GLITCH",
+						"id3":""
+					}
+				},
+				"id3":"165"
+			}
+		},
+		"id3":""
+	},
+	"7":{
+		"label":"ELECTRONICA",
+		"subs":{
+			"82":{
+				"label":"ACID JAZZ",
+				"subs":{
+					
+				},
+				"id3":"74"
+			},
+			"85":{
+				"label":"DOWNTEMPO",
+				"subs":{
+					
+				},
+				"id3":"155"
+			},
+			"87":{
+				"label":"LEFT-FIELD",
+				"subs":{
+					
+				},
+				"id3":"170"
+			},
+			"88":{
+				"label":"RETRO",
+				"subs":{
+					"40":{
+						"label":"LOUNGECORE",
+						"id3":""
+					},
+					"41":{
+						"label":"ELECTRO SWING",
+						"id3":""
+					}
+				},
+				"id3":"76"
+			},
+			"380":{
+				"label":"NEW AGE",
+				"subs":{
+					"110":{
+						"label":"NATURE",
+						"id3":""
+					},
+					"111":{
+						"label":"WORLD FUSION",
+						"id3":"181"
+					},
+					"112":{
+						"label":"ZEN",
+						"id3":""
+					}
+				},
+				"id3":"10"
+			}
+		},
+		"id3":"52"
+	},
+	"8":{
+		"label":"SCORE",
+		"subs":{
+			"90":{
+				"label":"HORROR",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"91":{
+				"label":"ACTION",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"92":{
+				"label":"ADVENTURE",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"96":{
+				"label":"CRIME ",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"97":{
+				"label":"DRAMA",
+				"subs":{
+					"42":{
+						"label":"HIGH",
+						"id3":""
+					},
+					"43":{
+						"label":"LIGHT",
+						"id3":""
+					},
+					"44":{
+						"label":"DRAMEDY",
+						"id3":"57"
+					},
+					"97":{
+						"label":"PSYCHOBILLY",
+						"id3":""
+					}
+				},
+				"id3":""
+			},
+			"98":{
+				"label":"FAMILY",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"99":{
+				"label":"FANTASY",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"100":{
+				"label":"MYSTERY",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"103":{
+				"label":"ROMANCE",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"104":{
+				"label":"SCI FI",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"107":{
+				"label":"TRAILER CUES",
+				"subs":{
+					
+				},
+				"id3":"70"
+			},
+			"108":{
+				"label":"WESTERN",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"402":{
+				"label":"COMEDY",
+				"subs":{
+					
+				},
+				"id3":"57"
+			},
+			"404":{
+				"label":"DOCUMENTARY",
+				"subs":{
+					
+				},
+				"id3":""
+			}
+		},
+		"id3":"24"
+	},
+	"9":{
+		"label":"FOLK",
+		"subs":{
+			"110":{
+				"label":"AMERICANA",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"112":{
+				"label":"BLUEGRASS",
+				"subs":{
+					
+				},
+				"id3":"89"
+			}
+		},
+		"id3":"80"
+	},
+	"10":{
+		"label":"HIP HOP",
+		"subs":{
+			"130":{
+				"label":"GANGSTA",
+				"subs":{
+					
+				},
+				"id3":"59"
+			},
+			"134":{
+				"label":"OLD-SCHOOL",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"135":{
+				"label":"POP",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"138":{
+				"label":"TRAP",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"139":{
+				"label":"TRIP-HOP",
+				"subs":{
+					
+				},
+				"id3":"27"
+			},
+			"441":{
+				"label":"WEST COAST",
+				"subs":{
+					
+				},
+				"id3":""
+			}
+		},
+		"id3":"7"
+	},
+	"11":{
+		"label":"JAZZ",
+		"subs":{
+			"145":{
+				"label":"BIG BAND",
+				"subs":{
+					
+				},
+				"id3":"96"
+			},
+			"146":{
+				"label":"CONTEMPORARY",
+				"subs":{
+					"108":{
+						"label":"SMOOTH",
+						"id3":""
+					}
+				},
+				"id3":""
+			},
+			"153":{
+				"label":"LOUNGE",
+				"subs":{
+					
+				},
+				"id3":"171"
+			},
+			"160":{
+				"label":"SWING",
+				"subs":{
+					"107":{
+						"label":"JIVE",
+						"id3":""
+					}
+				},
+				"id3":"83"
+			},
+			"566":{
+				"label":"BALLROOM",
+				"subs":{
+					"141":{
+						"label":"WALTZ",
+						"id3":""
+					},
+					"142":{
+						"label":"CHARLESTON",
+						"id3":""
+					},
+					"143":{
+						"label":"FOXTROT",
+						"id3":""
+					},
+					"144":{
+						"label":"JIG",
+						"id3":""
+					},
+					"145":{
+						"label":"QUICKSTEP",
+						"id3":""
+					}
+				},
+				"id3":"152"
+			}
+		},
+		"id3":"8"
+	},
+	"12":{
+		"label":"KIDS",
+		"subs":{
+			"161":{
+				"label":"ANIMATION",
+				"subs":{
+					
+				},
+				"id3":"24"
+			}
+		},
+		"id3":""
+	},
+	"14":{
+		"label":"POP",
+		"subs":{
+			"174":{
+				"label":"DANCE",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"176":{
+				"label":"DREAM",
+				"subs":{
+					"45":{
+						"label":"GLO-FI",
+						"id3":""
+					}
+				},
+				"id3":"55"
+			},
+			"177":{
+				"label":"ELECTRO",
+				"subs":{
+					
+				},
+				"id3":"159"
+			},
+			"179":{
+				"label":"FOLK",
+				"subs":{
+					
+				},
+				"id3":"53"
+			},
+			"184":{
+				"label":"NU SOUL",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"187":{
+				"label":"SINGER SONGWRITER",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"188":{
+				"label":"SYNTH",
+				"subs":{
+					
+				},
+				"id3":"147"
+			},
+			"189":{
+				"label":"TEEN",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"191":{
+				"label":"R&B",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"369":{
+				"label":"ROCK",
+				"subs":{
+					
+				},
+				"id3":""
+			}
+		},
+		"id3":"13"
+	},
+	"15":{
+		"label":"R&B",
+		"subs":{
+			"195":{
+				"label":"FUNK",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"199":{
+				"label":"SOUL",
+				"subs":{
+					
+				},
+				"id3":"42"
+			},
+			"430":{
+				"label":"ALTERNATIVE",
+				"subs":{
+					
+				},
+				"id3":"20"
+			}
+		},
+		"id3":"14"
+	},
+	"16":{
+		"label":"REGGAE",
+		"subs":{
+			
+		},
+		"id3":"16"
+	},
+	"17":{
+		"label":"RELIGIOUS",
+		"subs":{
+			"206":{
+				"label":"CHANTS",
+				"subs":{
+					"50":{
+						"label":"BUDDHIST",
+						"id3":""
+					},
+					"51":{
+						"label":"GEORGIAN",
+						"id3":""
+					},
+					"52":{
+						"label":"RUSSIAN",
+						"id3":""
+					}
+				},
+				"id3":""
+			},
+			"208":{
+				"label":"PRAYERS",
+				"subs":{
+					"55":{
+						"label":"ISLAMIC",
+						"id3":""
+					}
+				},
+				"id3":""
+			},
+			"209":{
+				"label":"RITUALS",
+				"subs":{
+					"62":{
+						"label":"SUDAN",
+						"id3":""
+					},
+					"63":{
+						"label":"PEYOTE CEREMONIES",
+						"id3":""
+					},
+					"66":{
+						"label":"VIETNAMESE",
+						"id3":""
+					},
+					"67":{
+						"label":"CAPE VERDE WISDOM RITUAL",
+						"id3":""
+					}
+				},
+				"id3":""
+			}
+		},
+		"id3":""
+	},
+	"18":{
+		"label":"ROCK",
+		"subs":{
+			"211":{
+				"label":"ARENA",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"212":{
+				"label":"BLUES",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"213":{
+				"label":"BRIT POP",
+				"subs":{
+					
+				},
+				"id3":"132"
+			},
+			"215":{
+				"label":"CLASSIC",
+				"subs":{
+					
+				},
+				"id3":"1"
+			},
+			"218":{
+				"label":"GARAGE BLUES",
+				"subs":{
+					
+				},
+				"id3":"190"
+			},
+			"219":{
+				"label":"GARAGE",
+				"subs":{
+					
+				},
+				"id3":"190"
+			},
+			"223":{
+				"label":"INDIE",
+				"subs":{
+					"75":{
+						"label":"SHOEGAZE",
+						"id3":"178"
+					},
+					"76":{
+						"label":"LO-FI",
+						"id3":"71"
+					}
+				},
+				"id3":"187"
+			},
+			"227":{
+				"label":"METAL",
+				"subs":{
+					"77":{
+						"label":"SPEED",
+						"id3":""
+					},
+					"79":{
+						"label":"METALCORE",
+						"id3":""
+					},
+					"80":{
+						"label":"HEAVY",
+						"id3":"137"
+					},
+					"82":{
+						"label":"HAIR",
+						"id3":""
+					},
+					"83":{
+						"label":"INDUSTRIAL ",
+						"id3":""
+					},
+					"85":{
+						"label":"NU",
+						"id3":""
+					},
+					"86":{
+						"label":"DEATH",
+						"id3":"22"
+					},
+					"106":{
+						"label":"SYMPHONIC",
+						"id3":""
+					},
+					"113":{
+						"label":"DOOM",
+						"id3":""
+					}
+				},
+				"id3":"09"
+			},
+			"231":{
+				"label":"POST",
+				"subs":{
+					
+				},
+				"id3":"176"
+			},
+			"232":{
+				"label":"PROG",
+				"subs":{
+					"89":{
+						"label":"MATH",
+						"id3":"172"
+					}
+				},
+				"id3":"92"
+			},
+			"233":{
+				"label":"PSYCHEDELIC",
+				"subs":{
+					
+				},
+				"id3":"93"
+			},
+			"234":{
+				"label":"PUNK",
+				"subs":{
+					"93":{
+						"label":"SKATER",
+						"id3":""
+					},
+					"94":{
+						"label":"HARDCORE",
+						"id3":""
+					},
+					"95":{
+						"label":"POST",
+						"id3":"175"
+					}
+				},
+				"id3":"121"
+			},
+			"236":{
+				"label":"ROCK N ROLL",
+				"subs":{
+					"138":{
+						"label":"DOO WOP",
+						"id3":""
+					},
+					"139":{
+						"label":"HONKYTONK",
+						"id3":""
+					},
+					"140":{
+						"label":"BOOGIE WOOGIE",
+						"id3":""
+					}
+				},
+				"id3":"78"
+			},
+			"240":{
+				"label":"SOUTHERN",
+				"subs":{
+					
+				},
+				"id3":"56"
+			},
+			"396":{
+				"label":"HARD",
+				"subs":{
+					
+				},
+				"id3":"79"
+			},
+			"436":{
+				"label":"SWAMP",
+				"subs":{
+					
+				},
+				"id3":""
+			}
+		},
+		"id3":"17"
+	},
+	"20":{
+		"label":"WORLD",
+		"subs":{
+			
+		},
+		"id3":"181"
+	},
+	"22":{
+		"label":"EASY LISTENING",
+		"subs":{
+			
+		},
+		"id3":"98"
+	},
+	"23":{
+		"label":"REALITY",
+		"subs":{
+			"382":{
+				"label":"ASPIRATIONAL",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"383":{
+				"label":"BACKSTORY",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"385":{
+				"label":"DELIBERATION",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"386":{
+				"label":"DISAPPOINTMENT",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"388":{
+				"label":"TASKING",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"389":{
+				"label":"TENSION",
+				"subs":{
+					
+				},
+				"id3":""
+			}
+		},
+		"id3":""
+	},
+	"24":{
+		"label":"SOUND DESIGN",
+		"subs":{
+			"412":{
+				"label":"SWELL",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"413":{
+				"label":"RISER",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"415":{
+				"label":"HIT",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"419":{
+				"label":"BOOM",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"420":{
+				"label":"BRAAHM",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"423":{
+				"label":"DOWNER",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"425":{
+				"label":"SLAM",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"426":{
+				"label":"STINGER",
+				"subs":{
+					
+				},
+				"id3":""
+			},
+			"427":{
+				"label":"SWOOSH",
+				"subs":{
+					
+				},
+				"id3":""
+			}
+		},
+		"id3":"37"
+	},
+	"25":{
+		"label":"HOLIDAY",
+		"subs":{
+			"408":{
+				"label":"CHRISTMAS",
+				"subs":{
+					"114":{
+						"label":"BIG BAND",
+						"id3":""
+					},
+					"115":{
+						"label":"LOUNGE",
+						"id3":""
+					},
+					"116":{
+						"label":"SCORE",
+						"id3":""
+					},
+					"117":{
+						"label":"FANTASY",
+						"id3":""
+					},
+					"118":{
+						"label":"INDIE",
+						"id3":""
+					},
+					"119":{
+						"label":"NEO ORCHESTRAL",
+						"id3":""
+					},
+					"120":{
+						"label":"ELECTRONICA",
+						"id3":""
+					},
+					"121":{
+						"label":"ROCK",
+						"id3":""
+					},
+					"122":{
+						"label":"HIP HOP",
+						"id3":""
+					},
+					"123":{
+						"label":"WORLD",
+						"id3":""
+					},
+					"124":{
+						"label":"SKA",
+						"id3":""
+					},
+					"125":{
+						"label":"POP",
+						"id3":""
+					},
+					"126":{
+						"label":"TEEN",
+						"id3":""
+					},
+					"127":{
+						"label":"CLASSICAL",
+						"id3":""
+					},
+					"129":{
+						"label":"AMERICANA",
+						"id3":""
+					},
+					"130":{
+						"label":"COUNTRY",
+						"id3":""
+					},
+					"131":{
+						"label":"LEFT-FIELD",
+						"id3":""
+					},
+					"132":{
+						"label":"SWING",
+						"id3":""
+					},
+					"133":{
+						"label":"ROCK N ROLL",
+						"id3":""
+					},
+					"134":{
+						"label":"BLUEGRASS",
+						"id3":""
+					}
+				},
+				"id3":""
+			}
+		},
+		"id3":""
+	},
+	"27":{
+		"label":"LATIN",
+		"subs":{
+			"455":{
+				"label":"WORLD",
+				"subs":{
+					
+				},
+				"id3":"181"
+			}
+		},
+		"id3":"86"
+	},
+	"30":{
+		"label":"DRUMLINE",
+		"subs":{
+			
+		},
+		"id3":"122"
+	}
+}

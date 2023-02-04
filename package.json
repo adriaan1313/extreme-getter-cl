@@ -1,0 +1,17 @@
+{
+  "name": "extremetags",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "command-line-args": "5.0.X",
+    "format-unicorn": "^1.1.1",
+    "got": "^11.8.5",
+    "node-id3": "^0.2.3"
+  }
+}
