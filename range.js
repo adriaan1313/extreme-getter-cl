@@ -1,9 +1,8 @@
 const got = require("got");
 const fs = require("fs");
 
-const min = 44259;
-const max = 45395;
-
+const min = 66032;
+const max = 66036;
 
 got.get("https://www.extrememusic.com/env").then(a=>{
 	console.log("got token")
@@ -13,14 +12,15 @@ got.get("https://www.extrememusic.com/env").then(a=>{
 		console.log(i, "started");
 		try{
 			const b = got.get("https://napi.extrememusic.com/tracks/"+i, {headers:{"X-API-Auth":token.token}}).then(b=>{
-				if(fs.existsSync("./range/"+b.track_sound_no+".json") return;
 				const data = JSON.parse(b.body);
+				if(!data.track) return;
+				if(fs.existsSync("./range/"+data.track.track_no+".json")) return;
 				fs.writeFileSync("./range/"+data.track.track_no+".json", b.body);
-				console.log(i, "done");
+				console.log(i, data.track.track_no, "done");
 			});
 		}
 		catch{}
-		//syncSleep(100);
+		syncSleep(50);
 	}
 	
 });

@@ -10,23 +10,55 @@ const optionDefinitions = [
 	{name: "max-process", alias: "p", type: Number},
 	{name: "no-alternative-versions-or-stems", alias: "f", type: Boolean},
 	{name: "no-tag", alias: "t", type: Boolean},
-	{name: "tag-delim", alias: "d", type: String}
+	{name: "tag-delim", alias: "d", type: String},
+	{name: "random-min", alias: "n", type: Number},
+	{name: "random-max", alias: "x", type: Number},
+	{name: "delay", alias: "s", type: Number},
+	{name: "help", alias: "?", type: Boolean}
 ];
 const options = cArgs(optionDefinitions);
 
-if(!options.album) {
-	console.log("please specify an album");
-	process.exit(1);
+if(options.help){
+	console.log(`Extreme Getter by Bunny
+
+Usage: node index <album> [options (optional)]
+ -m, --mode <json|mp3|m4a|m3u8url|mp3url>   m4a requires ffmpeg installed
+ -p, --max-process <number>                 max amount of child processes in m4a mode
+ -f, --no-alternative-versions-or-stems     get only full versions
+ -t, --no-tag                               do not add metadata to downloaded mp3's/m4a's
+ -d, --tag-delim <delimiter>                when multiple values in tag, what delimiter to use, ";" by default
+ -n, --random-min <milliseconds>            minimum random delay (max required)
+ -x, --random-max <milliseconds>            maximum random delay (min required)
+ -s, --delay <milliseconds>                 static delay
+ -?, --help                                 show this page`);
+ process.exit();
 }
 
 
 
+
+if(!options.album) {
+	console.log("please specify an album");
+	console.log("for help see -?");
+	process.exit(1);
+}
+
+
+let delayMode = "NONE";
 const album_id = options.album.toString();
 const delim=options.delim || "/";
 const mode=options.mode?.toLowerCase()||"mp3";// m4a REQURES FFMPEG IN PATH; doesn't do all tags
-const max_proc=options["max-process"]||20;
+const max_proc=options["max-process"]||10;
 const onlyFull=options["no-alternative-versions-or-stems"];
 const doTag=!options["no-tag"];
+const randomMax = options["random-max"];   //in ms
+const randomMin = options["random-min"];   //in ms
+const staticDelay = options["delay"];      //in ms
+if(!isNaN(randomMin)&&!isNaN(randomMin)){
+	delayMode = "RANDOM";
+} else if(!isNaN(staticDelay)){
+	delayMode = "STATIC";
+}
 let runningDownloads=0;
 (async function(){
 const a = await got.get("https://www.extrememusic.com/env");
@@ -62,10 +94,24 @@ fs.writeFileSync("./temp/cover.jpg", cover);
 delete cover;
 let count=0;
 const mon=["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-data.track_sounds.forEach( async a=>{
+let lastStarted = 0;
+
+function delay(){
+	if(delayMode == "RANDOM"){
+		return Math.random()*(randomMax-randomMin)+randomMin;
+	} else if(delayMode == "STATIC"){
+		return staticDelay;
+	}
+	else{
+		return 0;
+	}
+}
+
+data.track_sounds.forEach(async a=>{lastStarted+=delay();setTimeout( async a=>{
 	//const url = new URL(a.assets.audio.preview_url);
 	//const dir = decodeURIComponent(("."+url.pathname).replace(/\/(\w|_\d|-|%)+\.(\w|_\d)+/, ""));
 	//fs.mkdirSync(dir, {recursive:true});
+
 	if(onlyFull && a.track_sound_no.split("_").length!=2) return;
 	if(mode.indexOf("url")!=-1||!fs.existsSync("./output/"+a.track_sound_no+"."+mode)){
 		const b = trackData(a.track_id, data.tracks);
@@ -149,10 +195,10 @@ data.track_sounds.forEach( async a=>{
 	//delete url;
 	//delete dir;
 	
-});
+}, lastStarted,a);
 
 
-})();
+});})();
 
 
 const gsgssg = JSON.parse(fs.readFileSync("./genre_classified.json"));
@@ -186,7 +232,7 @@ function trackData(track_id, tracks){
 
 function limitProcesses(time, callback){
 	let _a = setInterval(()=>{
-		if(runningDownloads<20) {
+		if(runningDownloads<max_proc) {
 			clearInterval(_a)
 			callback();
 			delete _a;
